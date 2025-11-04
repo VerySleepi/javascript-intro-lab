@@ -43,8 +43,6 @@
     colourButtons.forEach(btn => {
         btn.addEventListener("click", colourChange)
     })
-})()
-
 
 // colourButtons.forEach(button => {
 //     button.addEventListener('click', function(ev){
@@ -58,7 +56,9 @@
 //             document.body.setAttribute('class', colour)
 //             console.info(`${colour} Button Clicked`)
 //         }
-//         console.info(colour)
-        
+//         console.info(colour)   
 //     })
 // });
+})()
+
+
