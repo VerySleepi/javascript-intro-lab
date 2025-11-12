@@ -1,8 +1,8 @@
 const myHeading = document.getElementById("myHeading")
 myHeading.innerHTML = "George Stead"
 
-let myLink = document.querySelector("nav ul li")
-myLink.setAttribute("class", "currentPage")
+// let myLink = document.querySelector("nav ul li")
+// myLink.setAttribute("class", "currentPage")
 
 document.getElementById("myTestBtn").addEventListener('click',function(ev){
     console.info(ev.target)
@@ -23,12 +23,13 @@ document.getElementById("myTestBtn").addEventListener('click',function(ev){
 
     fruits.splice(1, 0, "Banana", "Blueberry");
     console.log(fruits);
-})
+});
 
 
 
 // 12. Working with the Window Object
 (()=> {
+    console.dir(window.location);
     let url = window.location.href;
     let filename = url.split('/').pop();
     console.log(filename);
